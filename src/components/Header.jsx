@@ -11,7 +11,7 @@ const Header = ({ setShowAboutme }) => {
     <div>
         <div className='flex justify-between p-1 items-center'>
             <div className='w-[100px]'>
-                <img className='w-full' src={rosca} alt="" />
+                <Link to="/" ><img className='w-full' src={rosca} alt="" /></Link>
             </div>
 
             <div>
